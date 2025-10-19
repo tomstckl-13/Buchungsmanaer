@@ -1,0 +1,1 @@
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Gui\BuchungsManager.Gui.csproj;x64

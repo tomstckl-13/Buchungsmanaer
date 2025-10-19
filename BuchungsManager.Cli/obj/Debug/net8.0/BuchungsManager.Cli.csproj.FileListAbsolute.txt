@@ -1,0 +1,14 @@
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\bin\Debug\net8.0\BuchungsManager.Cli.exe
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\bin\Debug\net8.0\BuchungsManager.Cli.deps.json
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\bin\Debug\net8.0\BuchungsManager.Cli.runtimeconfig.json
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\bin\Debug\net8.0\BuchungsManager.Cli.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\bin\Debug\net8.0\BuchungsManager.Cli.pdb
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\BuchungsManager.Cli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\BuchungsManager.Cli.AssemblyInfoInputs.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\BuchungsManager.Cli.AssemblyInfo.cs
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\BuchungsManager.Cli.csproj.CoreCompileInputs.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\BuchungsManager.Cli.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\refint\BuchungsManager.Cli.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\BuchungsManager.Cli.pdb
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\BuchungsManager.Cli.genruntimeconfig.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Cli\obj\Debug\net8.0\ref\BuchungsManager.Cli.dll

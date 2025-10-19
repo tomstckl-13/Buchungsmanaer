@@ -1,0 +1,11 @@
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\BuchungsManager.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\BuchungsManager.Lib.AssemblyInfoInputs.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\BuchungsManager.Lib.AssemblyInfo.cs
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\BuchungsManager.Lib.csproj.CoreCompileInputs.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\bin\Debug\net8.0\BuchungsManager.Lib.deps.json
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\bin\Debug\net8.0\BuchungsManager.Lib.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\bin\Debug\net8.0\BuchungsManager.Lib.pdb
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\BuchungsManager.Lib.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\refint\BuchungsManager.Lib.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\BuchungsManager.Lib.pdb
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Lib\obj\Debug\net8.0\ref\BuchungsManager.Lib.dll

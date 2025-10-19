@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BuchungsManager.Gui.MainPage"
+             xmlns:viewmodels="clr-namespace:BuchungsManager.Core.ViewModels;assembly=BuchungsManager.Core"
+             x:DataType="viewmodels:MainViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             >
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+                EventName="Appearing"
+                Command="{Binding GetAllCommand}" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <toolkit:IsNotNullConverter x:Key="IsNotNullConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="*,Auto" ColumnDefinitions="*,*" >
+        <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto" RowSpacing="25" Padding="10">
+            <StackLayout>
+                <Label Text="Name des Gastes"/>
+                <Entry Text="{Binding GastName}" />
+            </StackLayout>
+            <StackLayout Grid.Row="1">
+                <Label Text="EinreiseDatum"/>
+                <DatePicker Date="{Binding AnreiseDatum}" />
+            </StackLayout>
+            
+            <StackLayout Grid.Row="2">
+                <Label Text="Preis pro nacht"/>
+                <Entry Text="{Binding PreisProNacht}" Keyboard="Numeric"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="3">
+                <Label Text="Preis pro nacht"/>
+                <CheckBox IsChecked="{Binding AllInklusiv}"/>
+                <Button Command="{Binding AddCommand}" Text="Buchung hinzufügen" />
+            </StackLayout>
+        </Grid>
+        <Grid Grid.Column="1">
+            <CollectionView ItemsSource="{Binding Buch}" SelectionMode="Single" SelectedItem="{Binding SelectedItem}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="*,*,*,*,*">
+                            <Label  Text="{Binding GastName}" />
+                            <Label Grid.Column="1" Text="{Binding AnreiseDatum, StringFormat='{0: yyy-MM-dd}'}"/>
+                            <Label Grid.Column="2" Text="{Binding PreisProNacht}"/>
+                            <Label Grid.Column="3" Text="{Binding AllInklusiv}"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        <Grid Grid.Row="1" IsVisible="{Binding SelectedItem, Converter={StaticResource IsNotNullConverter}}">
+            <Button Command="{Binding DeleteCommand}" Text="Buchung löschen" BackgroundColor="Red"/>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1" RowDefinitions="Auto, Auto, Auto, Auto, Auto" IsVisible="{Binding SelectedItem, Converter={StaticResource IsNotNullConverter}}">
+            <StackLayout>
+                <Label Text="Name des Gastes"/>
+                <Entry Text="{Binding SelectedItem.GastName}" />
+            </StackLayout>
+            <StackLayout Grid.Row="1">
+                <Label Text="EinreiseDatum"/>
+                <DatePicker Date="{Binding SelectedItem.AnreiseDatum}" />
+            </StackLayout>
+
+            <StackLayout Grid.Row="2">
+                <Label Text="Preis pro nacht"/>
+                <Entry Text="{Binding SelectedItem.PreisProNacht}" Keyboard="Numeric"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="3">
+                <Label Text="All inklusiv?"/>
+                <CheckBox IsChecked="{Binding SelectedItem.AllInklusiv}"/>
+
+            </StackLayout>
+            <Button Text="Buchung verändern" Grid.Row="4" BackgroundColor="Orange" Command="{Binding UpdateCommand}"/>
+        </Grid>
+    </Grid>
+
+</ContentPage>

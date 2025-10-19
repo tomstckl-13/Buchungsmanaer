@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NTnpptajMIs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\thoma\\source\\repos\\BuchungsManager\\BuchungsManager.Core\\BuchungsManager.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thoma\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

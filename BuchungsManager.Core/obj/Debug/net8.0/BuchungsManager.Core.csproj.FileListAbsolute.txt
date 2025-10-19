@@ -1,0 +1,15 @@
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\bin\Debug\net8.0\BuchungsManager.Core.deps.json
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\bin\Debug\net8.0\BuchungsManager.Core.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\bin\Debug\net8.0\BuchungsManager.Core.pdb
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\bin\Debug\net8.0\BuchungsManager.Lib.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\bin\Debug\net8.0\BuchungsManager.Lib.pdb
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\BuchungsManager.Core.csproj.AssemblyReference.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\BuchungsManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\BuchungsManager.Core.AssemblyInfoInputs.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\BuchungsManager.Core.AssemblyInfo.cs
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\BuchungsManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\Buchungs.E9B09157.Up2Date
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\BuchungsManager.Core.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\refint\BuchungsManager.Core.dll
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\BuchungsManager.Core.pdb
+C:\Users\thoma\source\repos\BuchungsManager\BuchungsManager.Core\obj\Debug\net8.0\ref\BuchungsManager.Core.dll
